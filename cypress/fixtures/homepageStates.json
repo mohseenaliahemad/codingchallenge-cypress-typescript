@@ -1,0 +1,18 @@
+[
+    {
+      "scenario": "Github home page",
+      "url": "http://github.com",
+      "expectedHeader": "Build and ship"
+    },
+    {
+      "scenario": "Copilot home page",
+      "url": "https://github.com/features/copilot",
+      "expectedHeader": "The world’s most widely adopted AI developer tool"
+    },
+    {
+      "scenario": "Security home page",
+      "url": "https://github.com/features/security",
+      "expectedHeader": "Security at every step"
+    }
+  ]
+  
