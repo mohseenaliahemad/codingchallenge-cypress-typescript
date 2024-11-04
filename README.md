@@ -9,3 +9,4 @@ Install NodeJS [Follow the instructions on Download Node.js to download and inst
 npm i
 
 # Run Cypress tests
+npm run test
