@@ -1,4 +1,4 @@
-import { GithubHomePage } from '../pages/github-home-page'
+import { GithubHomePage } from '../../pages/github-home-page'
 
 describe('Basic Test Automation - Github', ()=>{
     const githubHomePage = new GithubHomePage();
@@ -19,10 +19,11 @@ describe('Basic Test Automation - Github', ()=>{
     //Using direct cypess commands
     it.only('verify Navigation links (e.g., "Explore", "Pricing") redirect to the correct pages', ()=>{
         cy.get('a[href="/enterprise"]').first().click({force: true});
-        cy.url().should('include', '/enterprise');
-        cy.get('a[href="/pricing"]').click(); 
-        cy.url().should('include', '/pricing');
-        cy.contains('Pricing').should('be.visible'); 
+        cy.url().should('include', '/enterprise')
+        cy.visit('http://github.com')
+        cy.get('a[href="/pricing"]').click()
+        cy.url().should('include', '/pricing')
+        cy.contains('Pricing').should('be.visible')
     })
 })
 

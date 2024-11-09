@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.118" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-10-25T12:38:20" tests="0" file="cypress\e2e\ui\githubtests\github-basic-tests.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Basic Test Automation - Github" timestamp="2024-10-25T12:38:20" tests="1" time="9.114" failures="0">
+    <testcase name="Basic Test Automation - Github verify Navigation links (e.g., &quot;Explore&quot;, &quot;Pricing&quot;) redirect to the correct pages" time="6.785" classname="verify Navigation links (e.g., &quot;Explore&quot;, &quot;Pricing&quot;) redirect to the correct pages">
+    </testcase>
+  </testsuite>
+</testsuites>
